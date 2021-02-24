@@ -6,7 +6,13 @@
 # AnnotSV Options :
 #------------------
 
--candidateGenesFiltering:   no
+-annotationMode:            "both"
+
+-bcftools:                  "bcftools"
+
+-bedtools:                  "bedtools"
+
+-candidateGenesFiltering:   "no"
 
 -genomeBuild:               GRCh37
 
@@ -28,13 +34,23 @@
 
 -reciprocal:                "no"
 
--snvindelPASS:              "0"
+-REreport:                  "no"
+
+-samplesidBEDcol:           "-1"
+
+# -samplesidTSVcol:           "-1"
+
+-snvIndelPASS:              "0"
 
 -SVinputInfo:               1
 
 -SVminSize:                 50
 
--annotationMode:            "both"
+-svtBEDcol:                 "-1"
+
+# -svtTSVcol:                 "-1"
+
+-tx:                        "RefSeq"
 
 
 #------------------------
